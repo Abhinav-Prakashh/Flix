@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    border: border-box;
+    background-color: #101010;
+}
+
+.navbar {
+    height: 90px;
+    background-color: #101010;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+/** box1 **/
+.logo {
+    background-image: url("assets/flix-logo.png");
+    background-size: cover;
+    height: 90px;
+    width: 250px;
+    position: relative;
+    left: -50px;
+    margin-left: 10px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/** box2 **/
+.language {
+    margin-left: auto;
+}
+
+.select-lang {
+    height: 32px;
+    border-radius: 50px;
+    background-color: #101010;
+    color: white;
+    width: 125px;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.select-lang option {
+    background-color: white;
+    color: #101010;
+}
+
+.select-lang:focus {
+    border: 2px solid white;
+}
+
+/** box3 **/
+.sign-in {
+    height: 32px;
+    width: 80px;
+    border-radius: 50px;
+    background-color: white;
+    color: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+    font-size: 0.9rem;
+    margin-right: 100px;
+    margin-left: -20px;
+}
+
+.sign-in:hover {
+    background-color: rgb(160, 157, 157);
+}
+
+/** Hero Section **/
+.hero-section {
+    color: white;
+    width: 1200px;
+    height: 500px;
+    border: 2px solid white;
+    padding: 0 80px 88px;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+
+/**Main text**/
+.main-topic {
+    margin-top: 150px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.price {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 1.5rem;
+}
+
+.membership {
+    position: absolute;
+    bottom: 180px;
+    font-size: 1rem;
+    color: white;
+}
+
+/** Email entry **/
+.email-id {
+    background-color: #454445;
+    width: 350px;
+    height: 56px;
+    border: 1px solid #b5b5b5;
+    border-radius: 50px;
+    padding: 0 15px 0 15px;
+    position: relative;
+    right: 10px;
+    font-size: 1rem;
+    font-weight: 550;
+    color: #b5b5b5;
+}
+
+
+/** Get Started button **/
+.get-started {
+    height: 59px;
+    width: 200px;
+    background-color: #E50914;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.get-started-button a {
+    text-decoration: none;
+    color: white;
+}
+.get-started:hover{
+    background-color: #a3141e;
+}
+
+/** reason panel **/
+.second-section {
+    color: white;
+    position: absolute;
+    top: 750px;
+    left: 110px;
+    margin-left: 15px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+/** reasons **/
+.reasons {
+    display: flex;
+}
+
+.reason-panel {
+    height: 220px;
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 15px 7px 50px;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.reason-panel h3 {
+    padding: 20px 15px 15px 15px;
+    background-color: transparent;
+    font-size: 1.3rem;
+}
+
+.reason-panel p {
+    padding: 2px 15px 25px 15px;
+    background-color: transparent;
+    font-size: 1rem;
+    color: #989498;
+}
+
+.image {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    margin-left: 225px;
+}
+
+img {
+    background-color: transparent;
+    position: absolute;
+    bottom: 70px;
+    transform: scale(0.85);
+}
+
+/** frequently asked section **/
+
+.third-section {
+    position: absolute;
+    top: 1080px;
+    left: 110px;
+    margin-left: 15px;
+}
+
+/** question panel **/
+
+.question-panel {
+    margin: 15px 0 25px 7px;
+    color: white;
+    font-weight: 750;
+    font-size: 1.1rem;
+}
+
+.questions {
+    height: 70px;
+    width: 1215px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fa-solid {
+    background-color: transparent;
+}
+
+.questions:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.fourth-section {
+    height: 75px;
+    width: 600px;
+    position: relative;
+    top: 1600px;
+    left: 65vh;
+    display: flex;
+    justify-content: center;
+}
+
+.fourth-section .membership {
+    margin-bottom: -80px;
+    background-color: transparent;
+}
+
+.footer {
+    border: 2px solid white;
+}
+
+.foot-panel1 {
+    color: rgb(150, 146, 146);
+    position: relative;
+    top: 1650px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel1 p {
+    margin-bottom: 40px;
+    margin-left: -50px;
+}
+
+
+ul a {
+    color: rgb(150, 146, 146);
+    margin-bottom: 20px;
+    display: block;
+    font-size: 0.9rem;
+}
+
+.list2 {
+    margin-top: 60px;
+}
+
+.list3 {
+    margin-top: 60px;
+}
+
+.list4 {
+    margin-top: 60px;
+}
+
+ul {
+    margin-left: -80px;
+}
+
+.foot-panel2 {
+    position: absolute;
+    top: 2025px;
+    width: 100px;
+    left: 155px;
+    color: white;
+}
+
+.foot-panel2 .select-lang {
+    width: 100px;
+    
+}
+
+.final-text {
+    color: rgb(150, 146, 146);
+    /* border: 2px solid white; */
+    position: relative;
+    top: 1600px;
+    /* left: 160px; */
+    padding-left: 160px;
+    margin-top: 15px;
+    height: 100px;
+}
